@@ -1,0 +1,281 @@
+/* DOCUMENT INFORMATION
+    - Document : GoT site
+    - Version : 1.0.0  
+    - Author : Michael
+*/
+
+
+/* COLORS
+    - default body text     Black
+    - h1                    White
+    - h2                    rgb(37, 75, 97);
+    - h3                    rgb(216, 216, 216)
+    - border                Black
+*/
+
+
+/* FONTS
+    - default               Default
+    - cards                 Source Sans Pro
+*/
+
+
+/* CSS DIRECTORY
+    1. =GLOBAL
+    2. =NAVBAR
+    3. =HEADER
+    4. =HOUSES
+    5. =BACKGROUND
+    6. =BORDER
+    7. =FLEX
+    8. =FOOTER
+    9. =RESPONSIVE
+*/
+
+
+/* GLOBAL ============================== */
+
+html {
+    background-color: grey;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 400%;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: rgb(37, 75, 97);
+    font-size: 250%;
+}
+
+p {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.item {
+    padding: 0 15px;
+}
+
+
+/* NAVBAR ============================== */
+
+.navbar {
+    background: rgba(0, 0, 0, 1);
+    min-height: 6vh;
+    border-bottom: solid 2px white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+
+/* HEADER ============================== */
+
+header {
+    background-image: url("../images/jon_blue.png");
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+/* HOUSES ============================== */
+
+.house {
+    margin-top: 20px;
+    padding: 20px 200px;
+    display: flex;
+    align-items: center;
+    font-size: 160%;
+}
+
+.white {
+    color: white;
+}
+
+.devise {
+    margin-left: 50px;
+}
+
+
+/* BACKGROUND ============================== */
+
+.bg_stark {
+    background-color: white;
+}
+
+.bg_targaryen {
+    background-color: rgb(24, 24, 24);
+}
+
+.bg_baratheon {
+    background-color: rgb(251, 176, 59);
+}
+
+.bg_lannister {
+    background-color: rgb(139, 8, 0);
+}
+
+.bg_tyrell {
+    background-color: rgb(78, 133, 13);
+}
+
+.bg_martell {
+    background-color: rgb(226, 121, 2);
+}
+
+.bg_arryn {
+    background-color: rgb(6, 108, 180);
+}
+
+.bg_tully {
+    background-color: rgb(8, 50, 136);
+}
+
+.bg_greyjoy {
+    background-color: rgb(8, 8, 8);
+}
+
+.bg_dark {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.text_dark {
+    color: white;
+}
+
+
+/* BORDER ============================== */
+
+.bdr_black {
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.bdr_white {
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+
+/* CARDS ============================== */
+
+.card {
+    border: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 15px 15px 15px 15px;
+}
+
+.card-title {
+    text-align: center;
+    margin-top: 0cm;
+}
+
+.card-text {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(37, 75, 97);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 100px;
+    margin: auto;
+    margin-top: 15px;
+    color: white;
+    transition: background-color 1s;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+
+/* FLEX ============================== */
+
+.cont-flex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-flex2 {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.al_center {
+    display: flex;
+    align-items: center;
+}
+
+.around {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* FOOTER ============================== */
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 15px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright a {
+    color: white;
+}
+
+
+/* RESPONSIVE ============================== */
